@@ -187,8 +187,6 @@ line-height: 140%;
   min-height: 394px;
   margin-top: 60px;
   column-gap: 73px;
-  overflow-x: scroll;
-  padding-bottom: 60px;
   display: flex;
   column-gap: 73px;
 }
@@ -389,6 +387,25 @@ p {
   max-width: 161px;
   display: flex;
   justify-content: space-between;
+}
+input {
+width: 195px;
+height: 44px;
+opacity: 0.1;
+border: 1px solid #000000;
+box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+.send {
+width: 103px;
+height: 44px;
+background: #C9453B;
+border-radius: 5px;
+}
+.footer_form div {
+  display: flex;
+  gap: 35px;
+  margin-top: 42px;
 }
 /* -----------media--------- */
 @media screen and (max-width: 1120px) {
