@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Ribeye&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
   box-sizing: border-box;
   font-family: 'Roboto';
@@ -11,6 +10,93 @@
 body {
   max-width: 1601px;
   width: 100%;
+}
+.header {
+  width: 1600px;
+  height: 900px;
+  background: url(/img/header.jpg) rgba(0, 0, 0, 0.3);
+}
+.header_nav_title {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.nav {
+  height: 121px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  min-width: 121px;
+  align-items: center;
+}
+.nav a {
+  height: 36px;
+  font-family: 'Ribeye';
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+.nav a:hover {
+  text-shadow: 5px -5px 5px #FFFFFF;
+}
+.nav_head {
+  display: flex;
+  gap: 50px;
+  max-width: 470px;
+}
+.nav_head a {
+  height: 27px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+button {
+  display: block;
+  width: 163px;
+  height: 51px;
+  background: #C9453B;
+  border-radius: 5px;
+}
+button:hover {
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.835);
+}
+.btn a {
+  height: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.btn a:hover {
+  text-shadow: none;
+}
+.header_title {
+  display: flex;
+  flex-direction: column;
+}
+.header_title h1 {
+  margin-top: 165px;
+  width: 804px;
+  height: 154px;
+  font-family: 'Gelasio';
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.header_title p {
+  margin-top: 30px;
+  width: 458px;
+  height: 87px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.header_title button {
+  margin-top: 40px;
+  width: 187px;
+  height: 59px;
 }
 /* Populars */
 .Populars {
@@ -38,13 +124,11 @@ line-height: 140%;
   text-align: center;
   opacity: 0.6;
 }
-
 .Populars_cards {
   margin-top: 50px;
   display: flex;
   column-gap: 30px;
 }
-
 .Populars_card {
   width: 360px;
   height: 500px;
@@ -59,7 +143,6 @@ line-height: 140%;
   height: 331px;
   border-radius: 10px 10px 0px 0px;
 }
-
 .card-title {
   margin-top: 35px;
   font-family: 'Gelasio';
@@ -68,13 +151,11 @@ line-height: 140%;
   line-height: 150%;
   text-align: center;
 }
-
 .card-text {
   height: 55px;
   text-align: center;
   opacity: 0.6;
 }
-
 /* offers */
 .offers {
   margin-top: 140px;
